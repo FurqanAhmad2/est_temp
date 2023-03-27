@@ -6,6 +6,7 @@ import navbarScrollEffect from "@common/navbarScrollEffect";
 import MainLayout from '@layouts/Main';
 //= Components
 import Header from '@components/CloudHosting/Generalheader';
+import SideMenu from '@components/CloudHosting/SideMenu';
 import Navbar from '@components/Navbars/CloudNav';
 import TopNav from '@components/Navbars/CloudNav/TopNav';
 // import TopNav from '@components/Navbars/TopNav';
@@ -32,10 +33,11 @@ const PageServicesApp = () => {
         <TopNav style="4" />
         {/* <Navbar navbarRef={navbarRef} /> */}
         <Header/>
+        <SideMenu />
         <main className="services-page style-5">
           <Services />
           <About noFirstContent noIntegration noWave />
-          {/* <Testimonials /> */}
+  
         </main>
         <Footer/>
      

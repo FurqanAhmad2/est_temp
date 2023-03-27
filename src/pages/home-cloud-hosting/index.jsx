@@ -24,7 +24,7 @@ const HomeCloudHosting = () => {
   return (
     <>
       <Head>
-        <title>Iteck - Cloud Hosting (Estifix)</title>
+        <title>Estifix</title>
       </Head>
 
       <MainLayout>

@@ -9,10 +9,10 @@ const ChatBanner = () => {
             <h6 className="text-white"> sync by app </h6>
             <h2 className="text-white"> Your Favorite Hosting platform Estifix Is <br /> One Click Away </h2>
             <div className="btns mt-40">
-              <a href="#" className="butn bg-darkBlue2 border-darkBlue2 border-2 border  text-white rounded-3">
+              <a href="/page-contact-app" className="butn bg-darkBlue2 border-darkBlue2 border-2 border  text-white rounded-3">
                 <span> Get In Touch </span>
               </a>
-              <a href="#" className="butn text-white border-2 border-white border rounded-3 ms-3">
+              <a href="/page-contact-app" className="butn text-white border-2 border-white border rounded-3 ms-3">
                 <span> Learn More </span>
               </a>
             </div>

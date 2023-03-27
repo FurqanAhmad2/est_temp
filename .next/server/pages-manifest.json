@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/page-about-app": "pages/page-about-app.js",
-  "/page-services-app": "pages/page-services-app.js"
+  "/home-cloud-hosting": "pages/home-cloud-hosting.js",
+  "/page-contact-app": "pages/page-contact-app.js"
 }

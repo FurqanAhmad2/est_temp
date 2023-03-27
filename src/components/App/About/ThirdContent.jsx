@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const ThirdContent = ({ features, rtl }) => {
   return (
-    <div className="content trd-content">
+    <div  className="content trd-content">
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-6">
@@ -13,7 +13,6 @@ const ThirdContent = ({ features, rtl }) => {
           <div className="col-lg-5">
             <div className="info">
               <div className="section-head style-4">
-                <small className="title_small">{ rtl ? 'ثيمات جميلة' : 'Beautiful Themes' }</small>
                 <h2 className="mb-30">{ rtl ? 'ركز أكثر مع' : 'Our Designing ' } <span>{ rtl ? 'المظهر الداكن' : 'Services include' }</span> </h2>
               </div>
               <p className="text mb-40">
@@ -29,7 +28,7 @@ const ThirdContent = ({ features, rtl }) => {
                   ))
                 }
               </ul>
-              <Link href="/page-services-5">
+              <Link href="/page-contact-app">
                 <a className="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
                   <small>{ rtl ? 'اكتشف الآن' : 'Discovery Now' }</small>
                 </a>

@@ -2,7 +2,7 @@ import plans from '@data/CloudHosting/plans.json';
 
 const Pricing = () => {
   return (
-    <section className="pricing style-9 section-padding bg-gray2">
+    <section id="section3" className="pricing style-9 section-padding bg-gray2">
       <div className="container">
         <div className="section-head text-center style-9 mb-80 wow fadeInUp">
           <h6> best plans </h6>

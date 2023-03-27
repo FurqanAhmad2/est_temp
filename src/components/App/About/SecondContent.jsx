@@ -1,7 +1,7 @@
 
 const SecondContent = ({ accordions, rtl }) => {
   return (
-    <div className="content sec-content">
+    <div id="section4" className="content sec-content">
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-5 order-2 order-lg-0">
@@ -46,9 +46,13 @@ const SecondContent = ({ accordions, rtl }) => {
               <img src="/assets/img/about/2mobiles.png" alt="" />
             </div>
           </div>
+         
         </div>
+       
       </div>
+      <div id="section5"></div>
       <img src="/assets/img/about/about_s4_bubble2.png" alt="" className="bubble2" />
+      
     </div>
   )
 }

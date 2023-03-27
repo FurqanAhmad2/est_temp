@@ -2,7 +2,7 @@ import React from 'react'
 
 const Domain = () => {
   return (
-    <section className="domain-search style-9 section-padding bg-gray2">
+    <section id="section2" className="domain-search style-9 section-padding  bg-gray2">
       <div className="container">
         <div className="section-head text-center style-9 mb-80 wow fadeInUp">
           <h6> domain search </h6>

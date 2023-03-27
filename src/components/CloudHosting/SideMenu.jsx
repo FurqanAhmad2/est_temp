@@ -24,11 +24,11 @@ const SideMenu = () => {
           </div>
           <div className="pages_links">
             <ul>
-              <li><a href="#" className="active">Home</a></li>
-              <li><a href="#">Domain</a></li>
-              <li><a href="#">Hosting</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="/home-cloud-hosting" className="active">Home</a></li>
+              <li><a href="/home-cloud-hosting/#section2">Domain</a></li>
+              <li><a href="/home-cloud-hosting/#section3">Hosting</a></li>
+              <li><a href="/page-services-app">Services</a></li>
+              <li><a href="/page-contact-app">contact</a></li>
               {/* <li><a href="#">contact</a></li>
               <li><a href="#">shop</a></li> */}
             </ul>

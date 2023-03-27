@@ -61,7 +61,7 @@ const Form = ({ style = "4", rtl }) => {
       <div className="container">
         <div className="content">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-5">
               <form action="contact.php" className="form" method="post" onSubmit={handleFormSubmit}>
                 <p className="text-center text-danger fs-12px mb-30">{ rtl ? 'الحقل اللذى يحتوى على هذة العلامة اجبارى *' : 'The field is required mark as *' }</p>
                 <div className="row">

@@ -11,7 +11,7 @@ const Services = () => {
         <div className="section-head text-center style-4 mb-60">
           <small className="title_small"> Software Apps </small>
           <h2 className="mb-20"> Our Top <span> Services </span> </h2>
-          <p> Notero intergrate with popular apps. Help you easy to connect and collaboration </p>
+       
         </div>
       </div>
       <div className="content">
@@ -51,7 +51,7 @@ const Services = () => {
             {
               services.map((service, index) => (
                 <SwiperSlide key={index}>
-                  <Link href="/page-services-5">
+                  <Link href="/page-contact-app">
                     <a className="service-card style-6">
                       <div className="icon">
                         <img src={service.img} alt="" />
