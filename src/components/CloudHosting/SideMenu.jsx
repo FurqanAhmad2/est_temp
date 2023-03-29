@@ -37,10 +37,10 @@ const SideMenu = () => {
             <h5> get in touch </h5>
             <div className="row">
               <div className="col-lg-6">
-                <a href="#"> <i className="fal fa-phone-alt me-2"></i> (+971) 56 484 8434 </a>
+                <a href="https://wa.me/971564848434"  target="_blank"> <i className="fal fa-phone-alt me-2"></i> (+971) 56 484 8434 </a>
               </div>
               <div className="col-lg-6">
-                <a href="#"> <i className="fal fa-envelope me-2 mt-4 mt-lg-0"></i> estifix9@gmail.com </a>
+                <a href="mailto:estifix9@gmail.com" className="me-4"> <i className="fal fa-envelope me-2 mt-4 mt-lg-0"></i> estifix9@gmail.com </a>
               </div>
             </div>
           </div>

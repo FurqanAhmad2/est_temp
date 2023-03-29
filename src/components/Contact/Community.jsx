@@ -11,17 +11,46 @@ const Community = () => {
         </div>
         <div className="content rounded-pill">
           {
-            communityData.map((card, i) => (
-              <div className="commun-card" key={i}>
-                <div className="icon icon-45">
-                  <img src={card.icon} alt="" />
-                </div>
-                <div className="inf">
-                  <h5>{ card.info }</h5>
-                </div>
+              <div className="commun-card" >
+              <div className="icon icon-45">
+                <img src='/assets/img/icons/location.png' alt="" />
               </div>
-            ))
+              <div className="inf">
+                <h5>UNITED ARAB EMIRATES</h5>
+              </div>
+            </div>
           }
+
+          {
+              <div className="commun-card" >
+              <div className="icon icon-45">
+                <img src='/assets/img/icons/gmail.png' alt="" />
+              </div>
+              <div className="inf">
+              <a href="mailto:estifix9@gmail.com" className="me-4">
+                <h5>estifix9@gmail.com</h5>
+                </a>
+              </div>
+            </div>
+          }
+
+          {
+              <div className="commun-card" >
+              <div className="icon icon-45">
+                <img src='/assets/img/icons/msg3d.png' alt="" />
+              </div>
+              <div className="inf">
+                
+                {/* <h5>(+971) 56 484 8434</h5> */}
+                <a href="https://wa.me/971564848434" target="_blank">
+                <h5>(+971) 56 484 8434</h5>
+                </a>
+              </div>
+            </div>
+          }
+
+
+
         </div>
       </div>
     </section>

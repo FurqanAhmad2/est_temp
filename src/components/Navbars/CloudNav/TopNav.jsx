@@ -20,25 +20,25 @@ const TopNav = () => {
 
   return (
     <div className="top-navbar style-9">
-      <div className="container">
-        <div className="row justify-content-between align-items-center gx-0">
-          <div className="col-7">
-            <div className="top_info">
-              <a href="#" className="me-4">
-                <i className="fas fa-envelope-open me-1"></i>
-                <span>estifix9@gmail.com</span>
-              </a>
-              <a href="#">
-                <i className="fas fa-phone me-1"></i>
-                <span>(+971) 56 484 8434</span>
-              </a>
-            </div>
-          </div>
-         
-        </div>
-      </div>
+    <div className="container">
+    <div className="row justify-content-between align-items-center gx-0">
+    <div className="col-7">
+    <div className="top_info">
+    <a href="mailto:estifix9@gmail.com" className="me-4">
+    <i className="fas fa-envelope-open me-1"></i>
+    <span>estifix9@gmail.com</span>
+    </a>
+    <a href="https://wa.me/971564848434" target="_blank">
+    <i className="fas fa-phone me-1"></i>
+    <span>(+971) 56 484 8434</span>
+    </a>
     </div>
-  )
+    </div>
+    </div>
+  </div>
+</div>
+
+)
 }
 
 export default TopNav
