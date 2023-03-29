@@ -1,49 +1,49 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 //= Layout
-import PreviewLayout from '@layouts/Preview';
+import MainLayout from '@layouts/Main';
 //= Components
-import Header from '@components/Preview/Header';
-import Features from '@components/Preview/Features';
-import Demos from '@components/Preview/Demos';
-import InnerPages from '@components/Preview/InnerPages';
-import BuyNow from '@components/Preview/BuyNow';
-import Portfolio from '@components/Preview/Portfolio';
-import Codei from '@components/Preview/Codei';
-import BestFeatures from '@components/Preview/BestFeatures';
-import Responsive from '@components/Preview/Responsive';
-import AllFeatures from '@components/Preview/AllFeatures';
-import Testimonials from '@components/Preview/Testimonials';
-import CallToAction from '@components/Preview/CallToAction';
+import SideMenu from '@components/CloudHosting/SideMenu';
+import Header from '@components/CloudHosting/Header';
+import Domain from '@components/CloudHosting/Domain';
+import About from '@components/CloudHosting/About';
+import Services from '@components/CloudHosting/Services';
+import Pricing from '@components/CloudHosting/Pricing';
+ import ChatBanner from '@components/CloudHosting/ChatBanner';
+import ChooseUs from '@components/CloudHosting/ChooseUs';
+// import Testimonials from '@components/CloudHosting/Testimonials';
+// import Partners from '@components/CloudHosting/Partners';
+import Footer from '@components/CloudHosting/Footer';
 
-const LandingPreview = () => {
+const HomeCloudHosting = () => {
   useEffect(() => {
-    document.body.classList.add('index-main');
-    return () => document.body.classList.remove('index-main');
+    document.body.classList.add('home-style-9');
+    return () => document.body.classList.remove('home-style-9');
   }, []);
 
   return (
     <>
       <Head>
-        <title>Iteck - Preview 01 (Estifix)</title>
+        <title>Estifix</title>
       </Head>
 
-      <PreviewLayout>
-        {/* <Header />
-        <Features /> */}
-        <Demos />
-        {/* <InnerPages /> */}
-        {/* <BuyNow />
-        <Portfolio />
-        <Codei />
-        <BestFeatures />
-        <Responsive /> */}
-        {/* <AllFeatures /> */}
-        {/* <Testimonials />
-        <CallToAction /> */}
-      </PreviewLayout>
+      <MainLayout>
+        <SideMenu />
+        <Header />
+        <main>
+          <Domain />
+          <About />
+          <Services />
+          <Pricing />
+          <ChatBanner />
+          <ChooseUs />
+          {/* <Testimonials /> */}
+          {/* <Partners /> */}
+        </main>
+        <Footer />
+      </MainLayout>
     </>
   )
 }
 
-export default LandingPreview;
+export default HomeCloudHosting;
