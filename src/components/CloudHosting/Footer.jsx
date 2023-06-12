@@ -54,8 +54,8 @@ const Footer = () => {
         <div className="foot">
           <div className="row align-items-center">
             <div className="col-lg-2 border-1 border-end brd-light">
-              <a className="navbar-brand pe-4" href="#">
-                <img src="/assets/img/logo_9.png" alt="" />
+              <a className="navbar-brand pe-4" href="/home-cloud-hosting/">
+                <img src="/assets/img/logo_9.svg" alt="" />
               </a>
             </div>
             <div className="col-lg-7">
@@ -63,9 +63,9 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 col-sm-6 text-lg-end">
               <div className="social-icons">
-                <a href="#" className="me-1"> <i className="fab fa-facebook-f"></i> </a>
-                <a href="#" className="me-1"> <i className="fab fa-twitter"></i> </a>
-                {/* <a href="#" className="me-1"> <i className="fab fa-behance"></i> </a> */}
+                <a href="https://www.facebook.com/profile.php?id=100089883986263&is_tour_completed=true" className="me-1"> <i className="fab fa-facebook-f"></i> </a>
+                <a href="https://twitter.com/AyrishhHanif?t=hLzKymyQRIMUGAdReRrg5A&s=09" className="me-1"> <i className="fab fa-twitter"></i> </a>
+                <a href="https://www.instagram.com/estifixeasytofix/" className="me-1"> <i className="fab fa-instagram"></i> </a>
                
               </div>
             </div>

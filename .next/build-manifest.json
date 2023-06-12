@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/home-cloud-hosting": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/home-cloud-hosting.js"
+    ],
     "/page-contact-app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
