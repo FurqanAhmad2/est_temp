@@ -1,5 +1,6 @@
 import Navbar from '@components/Navbars/CloudNav';
 import TopNav from '@components/Navbars/CloudNav/TopNav';
+import Link from 'next/link';
 
 const Header = () => {
   return (
@@ -10,11 +11,11 @@ const Header = () => {
         <div className="hosting-links py-4 text-white text-center">
           <div className="container">
             <div className="links">
-              <a href="#section2" className="fw-bold pe-3 me-3 border-end border-1 brd-light hover-darkBlue"> Domain </a>
-              <a href="#section3" className="fw-bold pe-3 me-3 border-end border-1 brd-light hover-darkBlue"> Web Hosting </a>
-              <a href="/page-services-app#section4" className="fw-bold pe-3 me-3 border-end border-1 brd-light hover-darkBlue"> Web developement </a>
-              <a href="/page-services-app#section5" className="fw-bold pe-3 me-3 border-end border-1 brd-light hover-darkBlue"> Graphic Designings </a>
-              <a href="/page-services-app" className="hover-darkBlue"> Social Media Marketing </a>
+              <Link href="#section2" className="fw-bold pe-3 me-3 border-end border-1 brd-light hover-darkBlue"> Domain </Link>
+              <Link href="#section3" className="fw-bold pe-3 me-3 border-end border-1 brd-light hover-darkBlue"> Web Hosting </Link>
+              <Link href="/page-services-app#section4" className="fw-bold pe-3 me-3 border-end border-1 brd-light hover-darkBlue"> Web developement </Link>
+              <Link href="/page-services-app#section5" className="fw-bold pe-3 me-3 border-end border-1 brd-light hover-darkBlue"> Graphic Designings </Link>
+              <Link href="/page-services-app" className="hover-darkBlue"> Social Media Marketing </Link>
               
             </div>
           </div>
@@ -32,9 +33,9 @@ const Header = () => {
                   <li> Website Design And Development </li>
                   <li> Graphics Designing, SEO, and Social Media Services</li>
                 </ul>
-                <a href="#" className="butn border-2 border-white border rounded-3 text-white mt-40">
+                <Link href="#" className="butn border-2 border-white border rounded-3 text-white mt-40">
                   <span> Get Started Now </span>
-                </a>
+                </Link>
               </div>
             </div>
            

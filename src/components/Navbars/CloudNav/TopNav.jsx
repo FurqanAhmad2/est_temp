@@ -28,7 +28,7 @@ const TopNav = () => {
     <i className="fas fa-envelope-open me-1"></i>
     <span>estifix9@gmail.com</span>
     </a>
-    <a href="https://wa.me/971564848434" target="_blank">
+    <a href="https://wa.me/971564848434" target="_blank noopener noreferrer">
     <i className="fas fa-phone me-1"></i>
     <span>(+971) 56 484 8434</span>
     </a>

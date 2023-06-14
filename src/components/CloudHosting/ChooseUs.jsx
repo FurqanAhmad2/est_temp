@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const ChooseUs = () => {
   return (
@@ -56,9 +57,9 @@ const ChooseUs = () => {
                     </div>
                   </div>
                 </div>
-                <a href="https://www.youtube.com/watch?v=pGbIOC83-So&t=21s" className="play_icon" data-lity>
+                <Link href="https://www.youtube.com/watch?v=pGbIOC83-So&t=21s" className="play_icon" data-lity>
                   <i className="fas fa-play"></i>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="tab-pane fade" id="choose2" role="tabpanel">
@@ -80,9 +81,9 @@ const ChooseUs = () => {
                     </div>
                   </div>
                 </div>
-                <a href="https://www.youtube.com/watch?v=pGbIOC83-So&t=21s" className="play_icon" data-lity>
+                <Link href="https://www.youtube.com/watch?v=pGbIOC83-So&t=21s" className="play_icon" data-lity>
                   <i className="fas fa-play"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

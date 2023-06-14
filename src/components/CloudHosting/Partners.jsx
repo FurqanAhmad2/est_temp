@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Partners = () => {
   return (
@@ -22,7 +23,7 @@ const Partners = () => {
                     <div className="info">
                       <h5> Reseller Hosting </h5>
                       <p> Get everything you need to start and run your web hosting and domain business.  </p>
-                      <a href="#" className="mt-30"> <i className="far fa-long-arrow-right l-arrow me-2"></i> Read More <i className="far fa-long-arrow-right r-arrow ms-2"></i> </a>
+                      <Link href="#" className="mt-30"> <i className="far fa-long-arrow-right l-arrow me-2"></i> Read More <i className="far fa-long-arrow-right r-arrow ms-2"></i> </Link>
                     </div>
                   </div>
                 </div>
@@ -40,7 +41,7 @@ const Partners = () => {
                     <div className="info">
                       <h5> Iteck <span> Pro </span> Version </h5>
                       <p> Spend less time managing client sites, and free up your day to create more and manage less. </p>
-                      <a href="#" className="mt-30"> <i className="far fa-long-arrow-right l-arrow me-2"></i> Read More <i className="far fa-long-arrow-right r-arrow ms-2"></i> </a>
+                      <Link href="#" className="mt-30"> <i className="far fa-long-arrow-right l-arrow me-2"></i> Read More <i className="far fa-long-arrow-right r-arrow ms-2"></i> </Link>
                     </div>
                   </div>
                 </div>
@@ -50,11 +51,11 @@ const Partners = () => {
           <div className="logos-content">
             <h4 className=" wow fadeInUp"> <span> 25K+ </span> Installation & Featured On </h4>
             <div className="logos">
-              <a href="#" className=" wow fadeInUp"> <img src="/assets/img/logos/23.png" alt="" /> </a>
-              <a href="#" className=" wow fadeInUp" data-wow-delay="0.2s"> <img src="/assets/img/logos/24.png" alt="" /> </a>
-              <a href="#" className=" wow fadeInUp" data-wow-delay="0.4s"> <img src="/assets/img/logos/25.png" alt="" /> </a>
-              <a href="#" className=" wow fadeInUp" data-wow-delay="0.6s"> <img src="/assets/img/logos/26.png" alt="" /> </a>
-              <a href="#" className=" wow fadeInUp" data-wow-delay="0.8s"> <img src="/assets/img/logos/27.png" alt="" /> </a>
+              <Link href="#" className=" wow fadeInUp"> <img src="/assets/img/logos/23.png" alt="" /> </Link>
+              <Link href="#" className=" wow fadeInUp" data-wow-delay="0.2s"> <img src="/assets/img/logos/24.png" alt="" /> </Link>
+              <Link href="#" className=" wow fadeInUp" data-wow-delay="0.4s"> <img src="/assets/img/logos/25.png" alt="" /> </Link>
+              <Link href="#" className=" wow fadeInUp" data-wow-delay="0.6s"> <img src="/assets/img/logos/26.png" alt="" /> </Link>
+              <Link href="#" className=" wow fadeInUp" data-wow-delay="0.8s"> <img src="/assets/img/logos/27.png" alt="" /> </Link>
             </div>
           </div>
         </div>

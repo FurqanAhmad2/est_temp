@@ -1,4 +1,5 @@
 import communityData from '@data/Contact/community.json';
+import Link from 'next/link';
 
 const Community = () => {
   return (
@@ -27,9 +28,9 @@ const Community = () => {
                 <img src='/assets/img/icons/gmail.png' alt="" />
               </div>
               <div className="inf">
-              <a href="mailto:estifix9@gmail.com" className="me-4">
+              <Link href="mailto:estifix9@gmail.com" className="me-4">
                 <h5>estifix9@gmail.com</h5>
-                </a>
+                </Link>
               </div>
             </div>
           }
@@ -42,9 +43,9 @@ const Community = () => {
               <div className="inf">
                 
                 {/* <h5>(+971) 56 484 8434</h5> */}
-                <a href="https://wa.me/971564848434" target="_blank">
+                <Link href="https://wa.me/971564848434" target="_blank"  rel="noopener  noreferrer">
                 <h5>(+971) 56 484 8434</h5>
-                </a>
+                </Link>
               </div>
             </div>
           }

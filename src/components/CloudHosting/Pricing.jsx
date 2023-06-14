@@ -1,4 +1,5 @@
 import plans from '@data/CloudHosting/plans.json';
+import Link from 'next/link';
 
 const Pricing = () => {
   return (
@@ -23,9 +24,9 @@ const Pricing = () => {
                       <h2 className="price"> ${plan.price} <small> /mo </small> </h2>
                       <p className="hightLight"> { plan.highlight } </p>
                       <p className="color-999"> { plan.text } </p>
-                      <a href="#" className="butn border-2 border-darkBlue2 border rounded-3 color-darkBlue2 fw-bold mt-30 w-100 mb-20">
+                      <Link href="#" className="butn border-2 border-darkBlue2 border rounded-3 color-darkBlue2 fw-bold mt-30 w-100 mb-20">
                         <span> Purchase Plan </span>
-                      </a>
+                      </Link>
                       <ul>
                         {
                           plan.features.map((feature, i) => (

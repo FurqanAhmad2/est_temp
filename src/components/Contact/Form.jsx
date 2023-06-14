@@ -2,6 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import contactInfo from '@data/Contact/form.json';
 import contactInfoRTL from '@data/Contact/form-rtl.json';
+import Link from 'next/link';
 
 const Form = ({ style = "4", rtl }) => {
   const [formData, setFormdata] = useState({
@@ -103,7 +104,7 @@ const Form = ({ style = "4", rtl }) => {
                     <div className="form-check d-inline-flex mt-30 mb-30">
                       <input className="form-check-input me-2 mt-0" type="checkbox" value="" id="flexCheckDefault" />
                       <label className="form-check-label small" htmlFor="flexCheckDefault">
-                        { rtl ? 'من خلال الإرسال ، أوافق على' : 'By submitting, i’m agreed to the' } <a href="#" className="text-decoration-underline">{ rtl ? 'الشروط و الاحكام' : 'Terms & Conditons' }</a>
+                        { rtl ? 'من خلال الإرسال ، أوافق على' : 'By submitting, i’m agreed to the' } <Link href="#" className="text-decoration-underline">{ rtl ? 'الشروط و الاحكام' : 'Terms & Conditons' }</Link>
                       </label>
                     </div>
                   </div>

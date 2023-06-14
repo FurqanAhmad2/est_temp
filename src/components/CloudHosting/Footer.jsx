@@ -1,4 +1,5 @@
 import footerLinks from '@data/CloudHosting/footerLinks.json';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -54,9 +55,9 @@ const Footer = () => {
         <div className="foot">
           <div className="row align-items-center">
             <div className="col-lg-2 border-1 border-end brd-light">
-              <a className="navbar-brand pe-4" href="/home-cloud-hosting/">
+              <Link className="navbar-brand pe-4" href="/home-cloud-hosting/">
                 <img src="/assets/img/logo_9.svg" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="col-lg-7">
               
